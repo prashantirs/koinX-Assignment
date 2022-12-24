@@ -1,0 +1,26 @@
+.table{
+    /* width: 100%; */
+    max-width: 100%;
+}
+.logoText{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tableRow{
+    cursor: pointer;
+}
+
+
+@media (max-width:1028px) {
+    .mobileText{
+        font-size: 13px;
+        width: 2rem;
+    }
+    .number{
+       display: none !important;
+    }
+    .changeWidth{
+        width: 10px !important;
+    }
+}

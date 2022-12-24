@@ -1,0 +1,9 @@
+.MainSection{
+    margin: 40px 100px;
+}
+
+@media (max-width:1028px) {
+    .MainSection{
+        margin: 10px 20px;
+    }
+}
